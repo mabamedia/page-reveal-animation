@@ -1,3 +1,10 @@
+import Loader from '@/components/Loader'
+
 export default function Home() {
-  return <h1>Home</h1>
+  return (
+    <>
+      <Loader />
+      <h1>Home</h1>
+    </>
+  )
 }
